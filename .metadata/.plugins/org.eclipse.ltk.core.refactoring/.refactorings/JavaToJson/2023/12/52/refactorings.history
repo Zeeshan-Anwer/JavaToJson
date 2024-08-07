@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 3 elements from project &apos;JavaToJson&apos;&#x0D;&#x0A;- Original project: &apos;JavaToJson&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     customer&#x0D;&#x0A;     Customer.json&#x0D;&#x0A;     Custoomer.json" description="Delete elements" element1="customer" element2="Customer.json" element3="Custoomer.json" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="3" stamp="1703851956386" subPackages="false" version="1.0"/>
+</session>

@@ -1,0 +1,39 @@
+package a;
+//find sum of third and 2nd largest value from the {1,9,7,8,3,0,5,2}
+
+public class Large {
+
+	public static void main(String[] args) {
+		int arr[]={1,9,7,8,3,0,5,2};
+		int firstLarge=findLarge(arr);
+		int secLarge=skip(arr,firstLarge);
+		int thirdLarge=skip(arr,secLarge);
+		
+		System.out.println(secLarge+thirdLarge);
+	}
+	public static int findLarge(int[] arr) {
+		
+		int temp1=arr[0];
+		for(int i=0;i<arr.length;i++)
+		{
+			for(int j=i+1;j<arr.length;j++)
+			{
+				if(arr[i]<arr[j])
+					temp1=arr[j];
+			}
+		}
+		return temp1;
+	}
+	public static int skip(int[] arr,int skip1) {
+		int temp2=arr[0];
+		for(int i=0;i<arr.length;i++)
+		{
+			for(int j=i+1;j<arr.length;j++)
+			{
+				if(arr[i]<arr[j] && skip1!=arr[i])
+					temp2=arr[j];
+			}
+		}
+		return temp2;
+	}
+}

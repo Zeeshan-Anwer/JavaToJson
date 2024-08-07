@@ -1,0 +1,16 @@
+package stringQues;
+
+public class PrintDup {
+
+	public static void main(String[] args) {
+		
+	
+	String s="dkfakldf";
+	
+	for(int i=;i<s.length;i++;)
+	{
+		
+	}
+}
+
+}
